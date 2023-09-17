@@ -1,0 +1,72 @@
+#header{
+ height: 40px;
+ background-color: #1F2937;
+ color: white;
+ display: flex;
+ /* justify-content: space-evenly; */
+}
+#header div{
+  /* border: 2px solid red; */
+  flex:1;
+}
+
+#header-logo{
+  font-weight: bold;
+  font-size: 24px;
+  display: flex;
+  color: #F9FAF8;
+  align-items: center;
+  padding-left: 150px;
+  /* justify-content: center; */
+}
+#header-group-right{
+  /* border: 2px solid red; */
+  display: flex;
+  align-items: center;
+  /* padding-left: 100px; */
+  justify-content: space-evenly;
+}
+
+#header-group-right a{
+  color: white;
+  text-decoration: none;
+  display: flex;
+  font-size: 19px;
+  color: #E5E7EB;
+  /* border: 1px solid blue; */
+}
+#first-block{
+  /* border: 2px solid blue; */
+ background-color: #1F2937;
+ color: white;
+ display: flex;
+}
+#first-block div{
+  flex:1;
+  /* border: 2px solid red; */
+
+}
+#first-block h1{
+  font-size: 48px;
+  font-weight:800 ;
+  color: #F9FAF8;
+  margin-bottom: 2px;
+  /* border: 1px solid red; */
+}
+#first-block p{
+  margin-top: 2px;
+}
+#sign-up-btn1{
+  height: 30px;
+  width: 100px;
+  border-radius: 7px;
+  background-color: #3882F6;
+  color: white;
+  font-weight: 300;
+}
+#intro{
+  margin-left: 150px;
+}
+.body{
+  display: flex;
+}
